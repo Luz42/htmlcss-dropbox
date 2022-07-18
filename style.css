@@ -19,8 +19,13 @@ img {
 
 } */
 
-.container {
+.container-l {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-s{
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -41,8 +46,12 @@ img {
  }
 
 .debug-figure{
-    background-color: #fff;
+    background-color: rgba(184, 57, 219, 0.658);
     padding: 13%;
+}
+
+.border-debug{
+    border: solid;
 }
 
 /* ------Content------ */
@@ -87,11 +96,23 @@ header figure{
 article>*{
     padding: 2% 0;
 }
-
-
 /* /INTRODUCTION */
 
 /* CONTENT */
+main{
+    padding-top: 20vh;
+}
+
+.packs>*{
+    flex-basis: calc(100% / 3 - 1%);
+    height: 50vh; /* debug */
+    border: solid;
+}
+
+.custom{
+    margin: 2% 0;
+    border: solid;
+}
 /* /CONTENT */
 
 /* LINKS */
