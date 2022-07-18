@@ -54,6 +54,14 @@ img {
     border: solid;
 }
 
+/* .v-margin-debug{
+    margin: 2% auto;
+}
+
+.v-padding-debug{
+    padding: 2% auto;
+} */
+
 /* ------Content------ */
 
 /* UTILITIES */
@@ -133,13 +141,19 @@ main{
         background-color:aqua
     }
 
-    .publicity>div{
+    /* .publicity>div{
         flex-basis: calc(100% / 3);
-    }
+    } */
 
     .sponsor{
         width: calc(100vw / 6);
         height: calc(100vw / 6);
+    }
+
+    .center-pub{
+        width: calc(100vw / 6 * 2);
+        height: calc(100vw / 6 * 2);
+        
     }
 
     #blue{
@@ -170,6 +184,19 @@ main{
         background-color: yellow;
     }
 /* /BUSINESS */
+
+/* Q&A */
+
+.question{
+    margin: 5% auto;
+}
+
+.question>*{
+    margin: 2%;
+}
+
+/* /Q&A */
+
 
 /* /CONTENT */
 
