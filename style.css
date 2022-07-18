@@ -1,0 +1,23 @@
+/* ------Generics------ */
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* end CSS RESET */
+
+img {
+    width: 100%;
+}
+
+/* ------Utilities------ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ------Content------ */
