@@ -14,15 +14,52 @@ img {
 
 /* ------Utilities------ */
 
+.debug{
+    
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 
 /* ------Content------ */
 
 /* UTILITIES */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: indianred;
+}
+
+ nav>div>*{
+    height: 10vh;
+ }
+
+
+ nav button{
+    border: none;
+    background-color: indianred;
+    padding: 0 5%;
+ }
+
+ nav .right-side{
+    justify-content: flex-end;
+ }
 /* /UTILITIES */
 
 /* INTRODUCTION */
