@@ -14,9 +14,10 @@ img {
 
 /* ------Utilities------ */
 
-.debug{
-    
-}
+/* .v-padding{
+    padding: 5% 0;
+
+} */
 
 .container {
     max-width: 1200px;
@@ -35,6 +36,14 @@ img {
     justify-content: space-between;
 }
 
+.justify-end{
+    justify-content: flex-end;
+ }
+
+.debug-figure{
+    background-color: #fff;
+    padding: 13%;
+}
 
 /* ------Content------ */
 
@@ -57,12 +66,29 @@ nav{
     padding: 0 5%;
  }
 
- nav .right-side{
-    justify-content: flex-end;
- }
 /* /UTILITIES */
 
 /* INTRODUCTION */
+
+header{
+    padding-top: 20vh;
+    background-color: #b4d0e7;
+    height: 60vh;
+}
+
+header article{
+    width: 30%;
+}
+
+header figure{
+    width: 70%;
+}
+
+article>*{
+    padding: 2% 0;
+}
+
+
 /* /INTRODUCTION */
 
 /* CONTENT */
