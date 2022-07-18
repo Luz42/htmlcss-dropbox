@@ -93,7 +93,7 @@ header figure{
     width: 70%;
 }
 
-article>*{
+header article>*{
     padding: 2% 0;
 }
 /* /INTRODUCTION */
@@ -115,7 +115,7 @@ main{
     border: solid;
 }
 
-/* GRID */
+/* FUNCTION */
     .grid{
         flex-wrap: wrap;
         margin: 1% 0;
@@ -125,8 +125,51 @@ main{
         margin-top: 1%;
 
     }
-/* /GRID */
+/* /FUNCTION */
 
+/* BUSINESS */
+    .publicity{
+        /* height: 50vh; */
+        background-color:aqua
+    }
+
+    .publicity>div{
+        flex-basis: calc(100% / 3);
+    }
+
+    .sponsor{
+        width: calc(100vw / 6);
+        height: calc(100vw / 6);
+    }
+
+    #blue{
+        background-color: blue;
+    }
+    #pink{
+        background-color: pink;
+    }
+    #green{
+        background-color: green;
+    }
+    #red{
+        background-color: red;
+    }
+    #orange{
+        background-color: orangered;
+    }
+    #brown{
+        background-color: brown;
+    }
+    #purple{
+        background-color: purple;
+    }
+    #grey{
+        background-color: gray;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+/* /BUSINESS */
 
 /* /CONTENT */
 
