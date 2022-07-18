@@ -196,9 +196,22 @@ main{
 }
 
 /* /Q&A */
-
-
 /* /CONTENT */
 
 /* LINKS */
+
+footer{
+    background-color: black;
+    padding: 2% 0;
+}
+
+.links{
+    height: 50vh;
+    background-color: white;
+    margin: 2% auto;
+}
+
+footer>.container-l>hr, footer>.container-l>button{
+    margin: 2% auto;
+}
 /* /LINKS */
