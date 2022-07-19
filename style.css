@@ -8,8 +8,19 @@
 
 /* end CSS RESET */
 
+body{
+    font-family: sans-serif;
+}
+
 img {
     width: 100%;
+}
+
+button{
+    background-color: #0061ff;
+    border: none;
+    padding: 10px 14px;
+    color: white;
 }
 
 /* figure>img{
@@ -73,6 +84,7 @@ nav{
     top: 0;
     width: 100%;
     background-color: white;
+    z-index: 5;
 }
 
  nav>div>*{
@@ -85,7 +97,7 @@ nav{
     padding: 0 3%;
     line-height: 10vh;
     text-decoration: none;
-    color: black;
+    color: #787878;
  }
 
  nav figure, .bordered-button{
@@ -128,17 +140,21 @@ header figure{
 }
 
 header article>*{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .bottom-header{
     position: relative;
 }
 
+header h1,i{
+    font-size: 5em;
+
+}
+
 header i{
-font-size: xx-large;
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 
