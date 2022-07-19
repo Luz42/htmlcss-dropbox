@@ -188,7 +188,7 @@ main{
     margin: 0 1%;
 }
 
-.head-pack{
+.head-pack, .head-custom{
     top: 0;
     width: 100%;
     padding: 4%;
@@ -196,11 +196,11 @@ main{
     border-bottom: solid;
 }
 
-.main-pack{
+.packs .main-pack{
     padding: 10%;
 }
 
-.main-pack>*, .main-pack>ul>li{
+.packs .main-pack>*{
     margin: 8%;
 }
 
@@ -241,6 +241,14 @@ main{
 .custom{
     margin: 2% 0;
     border: solid;
+}
+
+.head-custom{
+    padding: 1%;
+}
+
+.main-custom{
+    padding: 3%;
 }
 
 /* FUNCTION */
