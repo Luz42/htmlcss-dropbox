@@ -23,6 +23,13 @@ button{
     color: white;
 }
 
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
 /* figure>img{
     padding: 21% 7%;
 } */
@@ -164,6 +171,16 @@ header i{
 main{
     padding-top: 20vh;
 }
+
+#offers>*{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#annual{
+    margin-left: 5%;
+}
+
 /* COLUMNS */
 .packs>*{
     flex-basis: calc(100% / 3 - 1%);
@@ -175,16 +192,31 @@ main{
     width: 100%;
     padding: 4%;
     text-align: center;
-    border-bottom: solid
+    border-bottom: solid;
 }
 
 .main-pack{
     padding: 10%;
 }
 
-.main-pack>*{
-    margin: 5%;
+.main-pack>*, .main-pack>ul>li{
+    margin: 8%;
 }
+
+.main-pack>hr{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.price{
+    margin-bottom: 20%;
+}
+
+.price>p{
+    margin-top: 3%;
+    color: #787878;
+}
+
 /* /COLUMNS */
 
 .custom{
