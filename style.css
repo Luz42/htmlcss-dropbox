@@ -137,7 +137,8 @@ header article>*{
 
 header i{
 font-size: xx-large;
-position: relative;
+position: absolute;
+bottom: 0;
 }
 
 
