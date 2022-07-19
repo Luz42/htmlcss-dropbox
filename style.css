@@ -165,10 +165,25 @@ main{
     padding-top: 20vh;
 }
 /* COLUMNS */
-.card, .packs>*{
+.packs>*{
     flex-basis: calc(100% / 3 - 1%);
-    height: 50vh; /* debug */
     border: solid;
+}
+
+.head-pack{
+    top: 0;
+    width: 100%;
+    padding: 4%;
+    text-align: center;
+    border-bottom: solid
+}
+
+.main-pack{
+    padding: 10%;
+}
+
+.main-pack>*{
+    margin: 5%;
 }
 /* /COLUMNS */
 
@@ -178,14 +193,16 @@ main{
 }
 
 /* FUNCTION */
-    .grid{
+.grid{
         flex-wrap: wrap;
         margin: 1% 0;
     }
 
-    .card{
-        margin-top: 1%;
-
+.card{
+    margin-top: 1%;
+    flex-basis: calc(100% / 3 - 1%);
+    height: 50vh; /* debug */
+    border: solid;
     }
 /* /FUNCTION */
 
