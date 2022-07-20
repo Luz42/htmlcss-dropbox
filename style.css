@@ -186,7 +186,7 @@ header i{
 main{
     padding-top: 20vh;
 }
-
+/* OFFERS */
 #offers>*{
     margin-top: 2%;
     margin-bottom: 2%;
@@ -279,7 +279,10 @@ main{
     text-align: right;
 }
 
-#partnership{
+/* /OFFERS */
+
+/* PARTNERSHIP */
+#partnership, #functions{
     margin-top: 15%;
     margin-bottom: 15%;
 }
@@ -298,9 +301,7 @@ main{
     border: solid 1px;
     color: black;
 }
-
-
-
+/* /PARTNERSHIP */
 
 /* FUNCTION */
 .grid{
@@ -311,9 +312,12 @@ main{
 .card{
     margin-top: 1%;
     flex-basis: calc(100% / 3 - 1%);
-    height: 50vh; /* debug */
-    border: solid;
-    }
+    padding: 2%;    
+}
+
+.card article>*{
+    padding: 5% 0;
+}
 /* /FUNCTION */
 
 /* BUSINESS */
