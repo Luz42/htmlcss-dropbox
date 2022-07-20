@@ -282,7 +282,7 @@ main{
 /* /OFFERS */
 
 /* PARTNERSHIP */
-#partnership, #functions{
+#partnership, #functions, #business-top{
     margin-top: 15%;
     margin-bottom: 15%;
 }
@@ -327,6 +327,12 @@ main{
         flex-wrap: wrap;
 
     }
+
+    #business-top>a{
+        padding-top: 5%;
+        display: inline-block;
+    }
+
 
     /* .publicity>div{
         flex-basis: calc(100% / 3);
