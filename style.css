@@ -30,10 +30,19 @@ h2{
 h3{
     font-size: 2em;
 }
+
+hr:not(#faq hr){
+    width: 25%;
+}
 /* figure>img{
     padding: 21% 7%;
 } */
 /* ------Utilities------ */
+
+#partnership, #functions, #business-top, #business-bottom, #faq{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
 
 .w-70{
     width: 70%;
@@ -282,10 +291,6 @@ main{
 /* /OFFERS */
 
 /* PARTNERSHIP */
-#partnership, #functions, #business-top{
-    margin-top: 15%;
-    margin-bottom: 15%;
-}
 
 #partnership article>*{
     margin-top: 5%;
@@ -341,12 +346,24 @@ main{
     .sponsor{
         width: 15vw;
         height: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12%;
     }
 
     .center-pub{
         width: calc(100% - 60vw);
         /* height: calc(100% - 40vw); */
         
+    }
+
+    .center-pub>*{
+        margin-bottom: 5%;
+    }
+
+    .center-pub img{
+        width: 50%;
     }
 
     #blue{
@@ -363,6 +380,7 @@ main{
     }
     #orange{
         background-color: orangered;
+        padding: 3%;
     }
     #brown{
         background-color: brown;
@@ -376,15 +394,24 @@ main{
     #yellow{
         background-color: yellow;
     }
+
+#business-bottom>h2 {
+    display: inline-block;
+}
+
+.button-pub{
+    text-align: right;
+    align-self: center;
+}
+
+
 /* /BUSINESS */
 
 /* Q&A */
 
-.question{
-    margin: 5% auto;
-}
 
-.question>*{
+
+#faq>*{
     margin: 2%;
 }
 
