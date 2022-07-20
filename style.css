@@ -43,6 +43,14 @@ h3{
     width: 30%;
 }
 
+.w-60{
+    width: 60%
+}
+
+.w-40{
+    width: 40%;
+}
+
 .grow{
     flex-grow: 1;
 }
@@ -270,6 +278,27 @@ main{
 .button-custom{
     text-align: right;
 }
+
+#partnership{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#partnership article>*{
+    margin-top: 5%;
+
+}
+
+#partnership article{
+    padding: 5%;
+}
+
+#partnership button{
+    background-color: white;
+    border: solid 1px;
+    color: black;
+}
+
 
 
 
