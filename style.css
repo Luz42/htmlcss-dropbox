@@ -412,7 +412,11 @@ main{
 
 
 #faq>*{
-    margin: 2%;
+    margin: 3%;
+}
+
+.question>strong:nth-child(2){
+    padding-right: 5%;
 }
 
 /* /Q&A */
