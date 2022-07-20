@@ -10,6 +10,7 @@
 
 body{
     font-family: sans-serif;
+    /* TODO: change font */
 }
 
 img {
@@ -40,17 +41,13 @@ hr:not(#faq hr, .lower-footer>hr){
 }
 
 i{
-    margin-right: 1%;
+    padding-right: 1%;
 }
-
-/* figure>img{
-    padding: 21% 7%;
-} */
 /* ------Utilities------ */
 
 #partnership, #functions, #business-top, #business-bottom, #faq{
-    margin-top: 15%;
-    margin-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .w-70{
@@ -99,23 +96,6 @@ i{
     justify-content: flex-end;
  }
 
-.debug-figure{
-    background-color: rgba(184, 57, 219, 0.658);
-    padding: 13%;
-}
-
-.border-debug{
-    border: solid;
-}
-
-/* .v-margin-debug{
-    margin: 2% auto;
-}
-
-.v-padding-debug{
-    padding: 2% auto;
-} */
-
 /* ------Content------ */
 
 /* UTILITIES */
@@ -126,11 +106,6 @@ nav{
     background-color: white;
     z-index: 5;
 }
-
- nav>div>*{
-    height: 10vh;
- }
-
 
  nav a{
     vertical-align: middle;
@@ -168,22 +143,18 @@ header{
 }
 
 header article{
-    width: 30%;
     padding-top: 8vh;
-    position: relative;
 }
 
 header figure{
-    width: 70%;
-    position: relative;
     top: 8vh;
 }
 
 header article>*{
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
-.bottom-header{
+header .bottom-header, header figure, header article{
     position: relative;
 }
 
@@ -205,9 +176,9 @@ main{
     padding-top: 20vh;
 }
 /* OFFERS */
-#offers>*{
-    margin-top: 2%;
-    margin-bottom: 2%;
+#offers>*:not(.custom){
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #annual{
@@ -217,7 +188,7 @@ main{
 /* COLUMNS */
 .packs>*{
     flex-basis: calc(100% / 3 - 1%);
-    border: solid;
+    border: 2px solid #e0e0e2;
     margin: 0 1%;
 }
 
@@ -226,18 +197,19 @@ main{
     width: 100%;
     padding: 4%;
     text-align: center;
-    border-bottom: solid;
+    border-bottom: 2px solid #e0e0e2;
+    /* TODO: crate a class for all borders */
 }
 
 .packs .main-pack{
     padding: 10%;
 }
 
-.packs .main-pack>*{
-    margin: 8%;
+.packs .main-pack>*:not(hr, button){
+    padding: 5%;
 }
 
-.main-pack>hr{
+.main-pack>hr,.main-pack>button{
     margin-top: 15%;
     margin-bottom: 15%;
 }
@@ -246,8 +218,12 @@ main{
     margin-bottom: 20%;
 }
 
+.icon>p{
+    font-size: 0.9em;
+}
+
 .price>p{
-    margin-top: 3%;
+    padding-top: 3%;
     color: #787878;
 }
 
@@ -269,7 +245,7 @@ main{
 
 .custom{
     margin: 2% 0;
-    border: solid;
+    border: 2px solid #e0e0e2;
 }
 
 .head-custom{
@@ -281,11 +257,11 @@ main{
 }
 
 .text-custom p{
-    margin-top: 10%;
+    padding-top: 10%;
 }
 
 .text-custom strong{
-    margin-top: 1%;
+    padding-top: 1%;
     display: inline-block;
 }
 
@@ -297,8 +273,9 @@ main{
 
 /* PARTNERSHIP */
 
-#partnership article>*{
-    margin-top: 5%;
+#partnership article>*,
+.center-pub>*{
+    margin-bottom: 5%;
 
 }
 
@@ -344,11 +321,6 @@ footer li{
         display: inline-block;
     }
 
-
-    /* .publicity>div{
-        flex-basis: calc(100% / 3);
-    } */
-
     .sponsor{
         width: 15vw;
         height: 15vw;
@@ -364,45 +336,40 @@ footer li{
         
     }
 
-    .center-pub>*
-    {
-        margin-bottom: 5%;
-    }
-
     .center-pub img{
         width: 50%;
     }
 
-    #blue{
-        background-color: blue;
-    }
-    #pink{
-        background-color: pink;
-    }
-    #green{
-        background-color: green;
-    }
-    #red{
-        background-color: red;
+    #cerulean{
+        background-color: #0093ce;
     }
     #orange{
-        background-color: orangered;
-        padding: 3%;
+        background-color: #ff1c1c;
     }
-    #brown{
-        background-color: brown;
+    #green{
+        background-color: #a2d39b;
     }
     #purple{
-        background-color: purple;
+        background-color: #61082b;
     }
-    #grey{
-        background-color: gray;
+    #gray{
+        background-color: #f5f5f5;
+        padding: 3%;
+    }
+    #red{
+        background-color: #d5001f;
+    }
+    #light-blue, #business-bottom{
+        background-color: #b4d0e7;
+    }
+    #blue{
+        background-color: #0d2481;
     }
     #yellow{
-        background-color: yellow;
+        background-color: #ffd830;
     }
 
-#business-bottom>h2 {
+#business-bottom>div>h2 {
     display: inline-block;
 }
 
@@ -411,22 +378,19 @@ footer li{
     align-self: center;
 }
 
-
 /* /BUSINESS */
 
-/* Q&A */
+/* FAQ */
 
-
-
-#faq>*{
-    margin: 3%;
+#faq>*:not(hr){
+    padding: 3%;
 }
 
 .question>strong:nth-child(2){
     padding-right: 5%;
 }
 
-/* /Q&A */
+/* /FAQ */
 /* /CONTENT */
 
 /* LINKS */
