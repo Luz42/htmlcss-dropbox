@@ -35,6 +35,13 @@ h3{
 } */
 /* ------Utilities------ */
 
+.w-70{
+    width: 70%;
+}
+
+.w-30{
+    width: 30%;
+}
 
 .grow{
     flex-grow: 1;
@@ -250,6 +257,21 @@ main{
 .main-custom{
     padding: 3%;
 }
+
+.text-custom p{
+    margin-top: 10%;
+}
+
+.text-custom strong{
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.button-custom{
+    text-align: right;
+}
+
+
 
 /* FUNCTION */
 .grid{
