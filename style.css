@@ -9,8 +9,7 @@
 /* end CSS RESET */
 
 body{
-    font-family: sans-serif;
-    /* TODO: change font */
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -115,6 +114,11 @@ nav{
     color: #787878;
  }
 
+ nav a:hover:not(#login){
+    border-bottom: 2px black solid;
+    margin-bottom: -2px;
+ }
+
  nav figure, .bordered-button{
     position: relative;
     padding: 0 3%;
@@ -198,7 +202,6 @@ main{
     padding: 4%;
     text-align: center;
     border-bottom: 2px solid #e0e0e2;
-    /* TODO: crate a class for all borders */
 }
 
 .packs .main-pack{
@@ -310,7 +313,6 @@ footer li{
 
 /* BUSINESS */
     .publicity{
-        /* height: 50vh; */
         background-color:aqua;
         flex-wrap: wrap;
 
@@ -330,9 +332,12 @@ footer li{
         padding: 12%;
     }
 
+    .sponsor>img{
+        filter: invert(1);
+    }
+
     .center-pub{
         width: calc(100% - 60vw);
-        /* height: calc(100% - 40vw); */
         
     }
 
@@ -396,16 +401,10 @@ footer li{
 /* LINKS */
 
 footer{
-    /* color: white; */
     background-color: black;
     padding: 5% 0;
     font-size: 0.8em;
 }
-
-/* .links{
-    height: 50vh;
-    background-color: white;
-} */
 
 footer>.container-l>hr, footer>.container-l>button{
     margin: 2% auto;
@@ -415,16 +414,12 @@ footer a{
     text-decoration: none; 
 }
 
-footer a:visited{
-    color: white;
-}
-
 .lower-footer>hr{
     margin: 5% 0;
     width: 10%;
 }
 
-footer i, select{
+footer a:visited ,footer i, select{
     color: white;
 }
 
