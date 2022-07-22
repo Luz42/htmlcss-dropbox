@@ -23,6 +23,9 @@ button{
     color: white;
 }
 
+/* button:hover{
+    background-color: #0062ff42} */
+
 h2{
     font-size: 3em;
 }
@@ -313,9 +316,7 @@ footer li{
 
 /* BUSINESS */
     .publicity{
-        background-color:aqua;
         flex-wrap: wrap;
-
     }
 
     #business-top>a{
@@ -330,6 +331,11 @@ footer li{
         justify-content: center;
         align-items: center;
         padding: 12%;
+        transition: border 500ms linear;
+    }
+
+    .sponsor:hover{
+        border: 10px solid black;
     }
 
     .sponsor>img{
