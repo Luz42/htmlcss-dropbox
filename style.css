@@ -118,8 +118,8 @@ nav{
  }
 
  nav a:hover:not(#login){
-    border-bottom: 2px black solid;
-    margin-bottom: -2px;
+    border-bottom: 1px black solid;
+    margin-bottom: -1px;
  }
 
  nav figure, .bordered-button{
