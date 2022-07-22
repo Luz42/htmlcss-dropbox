@@ -335,7 +335,7 @@ footer li{
     }
 
     .sponsor:hover{
-        border: 10px solid black;
+        border: 10px solid currentColor;
     }
 
     .sponsor>img{
@@ -353,15 +353,19 @@ footer li{
     }
 
     #cerulean{
+        color: #4ecdff;
         background-color: #0093ce;
     }
     #orange{
-        background-color: #ff1c1c;
+        color: #ff6d6d;
+        background-color: #fb4343;
     }
     #green{
+        color: #c9ffc2;
         background-color: #a2d39b;
     }
     #purple{
+        color: #b91a5a;
         background-color: #61082b;
     }
     #gray{
@@ -369,16 +373,24 @@ footer li{
         padding: 3%;
     }
     #red{
+        color: #fa0025;
         background-color: #d5001f;
     }
-    #light-blue, #business-bottom{
+    #light-blue{
+        color: #d9eaf8;
         background-color: #b4d0e7;
     }
     #blue{
+        color: #1c42d7;
         background-color: #0d2481;
     }
     #yellow{
+        color: #ffeb92;
         background-color: #ffd830;
+    }
+
+    #business-bottom{
+    background-color: #b4d0e7;
     }
 
 #business-bottom>div>h2 {
