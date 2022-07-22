@@ -339,6 +339,7 @@ footer li{
     }
 
     .sponsor>img{
+        width: 15vh;
         filter: invert(1);
     }
 
