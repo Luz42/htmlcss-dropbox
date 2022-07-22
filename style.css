@@ -410,8 +410,17 @@ footer li{
     padding: 3%;
 }
 
-.question>strong:nth-child(2){
+.visible>strong:nth-child(2){
     padding-right: 5%;
+}
+
+.invisible{
+    padding: 3% 0;
+    display: none;
+}
+
+.question:hover .invisible{
+    display: block;
 }
 
 /* /FAQ */
